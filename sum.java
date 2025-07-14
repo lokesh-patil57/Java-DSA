@@ -8,6 +8,7 @@ public class sum {
         int var3 = var1.nextInt();
         int var4 = var2 + var3;
         System.out.println(var4);
+        var1.close();
     }
 
 }

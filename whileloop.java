@@ -11,7 +11,7 @@ public class whileloop {
             System.out.println("Current count: " + count);
             count++; // Increment the counter in each iteration
         }
-
+        sc.close();
         
     }
 }

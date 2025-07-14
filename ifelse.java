@@ -10,6 +10,7 @@ public class ifelse {
         } else {
             System.err.println("No is ODD");
         }
+        sc.close();
     }
     
 }

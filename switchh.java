@@ -12,6 +12,8 @@ public class switchh {
             break;
             case 3: System.err.println("Namaste");
             break;
+            
         }
+        sc.close();
     }    
 }
