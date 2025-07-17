@@ -12,12 +12,24 @@ public class PrimeNo {
         }
         return isPrime;
     }
-    
+    public static boolean opPrime(int a) {
+        if (a==2) {
+            return true;
+        } else if (a==0||a==1) {
+            return false;
+        }
+        for(int i=2; i<= Math.sqrt(a) ; i++) {
+            if (a%i==0) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        boolean prime = isPrime(a);
+        boolean prime = opPrime(a);
         System.out.println("the given on is prime : "+prime);
         
         sc.close();
