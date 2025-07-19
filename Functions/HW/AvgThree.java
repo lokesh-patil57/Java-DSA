@@ -1,4 +1,3 @@
-package Functions.HW;
 import java.util.Scanner;
 
 public class AvgThree {
