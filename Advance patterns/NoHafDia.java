@@ -4,7 +4,7 @@ public class NoHafDia {
         for (int i = 1; i <= n; i++) {
             // Inner loop
             // Spaces
-            for (int j = 1; j < n - i; j++) {
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
 
