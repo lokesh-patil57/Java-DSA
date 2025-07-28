@@ -1,4 +1,3 @@
-package TwoDArray;
 
 public class StairCaseSearchB {
     public static boolean stairCaseSearch(int matrix[][] ,int key) {

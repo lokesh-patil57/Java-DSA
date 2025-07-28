@@ -1,4 +1,3 @@
-package Arrays.HW;
 
 public class secQue {
     public static int search(int[] nums, int target) {

@@ -1,5 +1,3 @@
-package Arrays.HW;
-
 
 public class RepeatedValue {
     // Time complexity O(n2)

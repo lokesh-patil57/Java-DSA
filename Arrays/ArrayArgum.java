@@ -1,4 +1,3 @@
-package Arrays;
 
 public class ArrayArgum {
     public static void update(int marks[], int nonchangable) {

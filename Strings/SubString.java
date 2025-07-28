@@ -1,4 +1,3 @@
-package Strings;
 
 public class  SubString {
     public static String subString(String str , int si , int ei) {

@@ -1,4 +1,3 @@
-package Strings;
 
 public class ShortestPath {
     public static float shortPath(String path) {

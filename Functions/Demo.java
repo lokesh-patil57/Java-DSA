@@ -1,4 +1,3 @@
-package Functions;
 
 public class Demo{
     public static void hello () {

@@ -8,7 +8,6 @@
 //  a12    a22
 //  a13    a23
 
-package TwoDArray;
 
 public class TransposeofArray {
     public static void printMatrix(int[][] matrix) {

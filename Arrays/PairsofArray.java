@@ -1,4 +1,3 @@
-package Arrays;
 public class PairsofArray {
     public static void pairaofArray(int numbers[]) {
         int tp = 0;

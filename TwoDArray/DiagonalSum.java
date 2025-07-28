@@ -1,4 +1,3 @@
-package TwoDArray;
 public class DiagonalSum {
     public static int diagonalSum(int matrix[][]) {
         int sum = 0;

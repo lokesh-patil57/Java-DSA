@@ -3,7 +3,6 @@
 //  Input - int[][] array = { {4,7,8},{8,8,7} };
 //  Output - 2
 
-package TwoDArray;
 
 public class findKey {
    public static int countNo(int matrix[][]) {

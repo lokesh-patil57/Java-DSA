@@ -1,4 +1,3 @@
-package Arrays;
 
 public class PrefixarrayforSum {
 public static void subArrays(int numbers[]) {

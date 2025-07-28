@@ -1,4 +1,3 @@
-package TwoDArray;
 
 public class SprialMatrix {
     public static void printSprial(int matrix[][]) {

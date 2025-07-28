@@ -1,4 +1,3 @@
-package Arrays.Questions;
 
 public class ProfitStocks {
     public static int maxProfit(int prices[]) {
