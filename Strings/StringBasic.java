@@ -21,5 +21,6 @@ public class StringBasic {
         System.out.println(full);
         System.out.println(full.length());
         printLetters(str);
+        sc.close();
     }
 }
