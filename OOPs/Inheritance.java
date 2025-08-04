@@ -20,6 +20,7 @@ class Animal {
     }
 }
 
+// Single level Inheritance
 class fish extends Animal {
     void swim () {
         System.out.println("Fish Swims");
