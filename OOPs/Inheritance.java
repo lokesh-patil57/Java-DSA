@@ -20,3 +20,8 @@ class Animal {
     }
 }
 
+class fish extends Animal {
+    void swim () {
+        System.out.println("Fish Swims");
+    }
+}
