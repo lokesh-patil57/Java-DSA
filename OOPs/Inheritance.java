@@ -20,9 +20,18 @@ class Animal {
     }
 }
 
-// Single level Inheritance
-class fish extends Animal {
-    void swim () {
-        System.out.println("Fish Swims");
-    }
+// Multi level Inheritance
+class mamal extends Animal{
+   int legs; 
 }
+
+class dog extends mamal{
+    String breed;
+}
+
+// Single level Inheritance
+// class fish extends Animal {
+//     void swim () {
+//         System.out.println("Fish Swims");
+//     }
+// }
