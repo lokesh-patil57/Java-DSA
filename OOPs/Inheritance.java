@@ -2,8 +2,14 @@ package OOPs;
 
 public class Inheritance {
     public static void main(String[] args) {
-        fish shark = new fish();
-        shark.eat();
+        // fish shark = new fish();
+        // shark.eat();
+
+        dog spidy = new dog();
+        spidy.eat();
+        spidy.legs = 4;
+        System.out.println(spidy.legs);  
+
         
     }
 
