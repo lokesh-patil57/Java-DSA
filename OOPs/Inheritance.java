@@ -41,3 +41,14 @@ class dog extends mamal{
 //         System.out.println("Fish Swims");
 //     }
 // }
+
+
+// Hirarchi Inheritance
+
+class fish extends Animal{
+   int fins; 
+}
+
+class birds extends Animal {
+    int wings;
+}
