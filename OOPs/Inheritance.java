@@ -52,3 +52,13 @@ class fish extends Animal{
 class birds extends Animal {
     int wings;
 }
+
+// Hybrid Inheritance
+
+class shark extends fish{
+    
+}
+
+class peacock extends birds{
+    
+}
