@@ -7,6 +7,10 @@ public class Polymorphism {
         System.out.println(cal.sum((float) 4.5, (float) 4.5));
         System.out.println(cal.sum(5, 4 , 7));
 
+
+        // eat function in child called
+        Deer d = new Deer();
+        d.eat();
     }
 
 }
@@ -25,4 +29,18 @@ class Calculator {
         return a + b;
     }
 
+}
+
+// Method Overriding
+
+class Animals{
+    void eat () {
+        System.out.println("eats everything");
+    }
+}
+
+class Deer extends Animals{
+    void eat () {
+        System.out.println("eats grass");
+    }
 }
