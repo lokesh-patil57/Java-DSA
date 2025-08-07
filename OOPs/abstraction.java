@@ -16,3 +16,12 @@ abstract class Animal{
     }
     abstract void walk();
 }
+class Horse extends Animal{
+    void chageColor(){
+        System.out.println("Dark Brown");
+    }
+    void walk(){
+        System.out.println("Walks");
+    }
+
+}
