@@ -25,3 +25,11 @@ class Horse extends Animal{
     }
 
 }
+class Chicken extends Animal{
+    void chageColor(){
+        System.out.println("White");
+    }
+    void walk(){
+        System.out.println("Chicken flies");
+    }
+}
