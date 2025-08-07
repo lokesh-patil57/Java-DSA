@@ -9,7 +9,7 @@ public class abstraction {
 abstract class Animal{
     String color;
     Animal(){
-        color="Brown";
+        System.out.println("Animal color");
     }
     void eat(){
         System.out.println("Animal eats");
@@ -18,13 +18,23 @@ abstract class Animal{
 }
 class Horse extends Animal{
     void chageColor(){
-        System.out.println("Dark Brown");
+        System.out.println("Horse color");
     }
     void walk(){
         System.out.println("Walks");
     }
 
 }
+
+class mustang {
+    void chageColor(){
+        System.out.println("Mustang color");
+    }
+
+}
+
+
+
 class Chicken extends Animal{
     void chageColor(){
         System.out.println("White");
