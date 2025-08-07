@@ -2,7 +2,8 @@ package OOPs;
 
 public class abstraction {
     public static void main(String[] args) {
-        
+        mustang mg = new mustang();
+    
     }
 }
 
@@ -17,6 +18,9 @@ abstract class Animal{
     abstract void walk();
 }
 class Horse extends Animal{
+    Horse() {
+        System.out.println("Horse color");
+    }
     void chageColor(){
         System.out.println("Horse color");
     }
@@ -26,7 +30,10 @@ class Horse extends Animal{
 
 }
 
-class mustang {
+class mustang extends Horse{
+    mustang() {
+        System.out.println("Mustang color");
+    }
     void chageColor(){
         System.out.println("Mustang color");
     }
