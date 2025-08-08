@@ -13,3 +13,9 @@ class Animal{
     }
 }
 
+class Horse extends Animal{
+    Horse() {
+        super.color = "Brown";
+        System.out.println("Horse Constructor is Called");
+    }
+}
