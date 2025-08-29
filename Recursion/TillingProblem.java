@@ -5,14 +5,15 @@ public class TillingProblem {
         if (n == 0 || n == 1) {
             return 1;
         }
-        // vertilcal conditon
-        int verticle = tilesCount(n-1) ;
-        // Horizontal condition
-        int horizontal = tilesCount(n-2);
-        // total ways
-        int totalWays = verticle + horizontal;
+        // // vertilcal conditon5
+        // int verticle = tilesCount(n-1) ;
+        // // Horizontal condition
+        // int horizontal = tilesCount(n-2);
+        // // total ways
+        // int totalWays = verticle + horizontal;
 
-        return totalWays;
+        // return totalWays;
+        return tilesCount(n-1) + tilesCount(n-2);
     }
     public static void main(String[] args) {
         System.out.println(tilesCount(4));
