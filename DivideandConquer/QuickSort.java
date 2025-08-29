@@ -22,11 +22,35 @@ public class QuickSort {
     }
 
     public static int partition(int arr[], int si, int ei) {
+        // pivot
+        int pivot = arr[ei];
+        // i index to -1 = invalid index
+        int i = si - 1;
+
+        // for loop for finding left and right values
+        for (int j = si; j < ei; j++) { // except pivot index for swaping
+            if (arr[j] <= pivot) {
+                i++; // if a element is less than pivot then index of -1 is increment by 1
+                // Swap the less value position to current position of i
+                int temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+
+        }
+
+        // for shifting pivot at positon of current index of i+1
+        i++;
+        // Swap the pivot
+        int temp = pivot;
+        arr[ei] = arr[i];
+        arr[i] = temp;
+        return i;
 
     }
 
     public static void main(String[] args) {
-        int arr[] = { 6, 3, 9, 5, 2, 8 };
+        int arr[] = { 6, 3, 9, 8, 2, 5 };
         quickSort(arr, 0, arr.length - 1);
         printArray(arr);
     }
