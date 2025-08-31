@@ -15,6 +15,7 @@ public class findSubarrays {
         FindSubArr(str, ans, i+1);
     }
     public static void main(String[] args) {
-        
+        String str = "abc";
+        FindSubArr(str, "", 0);
     }
 }
