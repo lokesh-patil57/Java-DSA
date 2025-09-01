@@ -2,8 +2,14 @@ package Backtracking;
 
 public class nQueen {
     public static void nqueen(char board[][], int row) {
-        for (int i = 0; i < board.length; i++) {
+        //base 
+        if (row==board.length) {
             
+        }
+        for (int j = 0; j < board.length; j++) {
+            board[row][j]='Q';
+            nqueen(board, row+1); // function call
+            board[row][j]='.';// backtraking step
         }
     }
     public static void main(String[] args) {
